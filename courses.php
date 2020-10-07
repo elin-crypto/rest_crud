@@ -44,7 +44,6 @@ switch($method) {
         if(!$result) {
             http_response_code(404); //not found
             $result = array("message" => "Inga kurser hittade");
-            
         } else {
             http_response_code(200); //ok
         }
